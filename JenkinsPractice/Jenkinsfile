@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Testing') {
+            steps {
+                sh "pytest test/factorial_test.py"
+            }
+            
+        }
+    }
+}
