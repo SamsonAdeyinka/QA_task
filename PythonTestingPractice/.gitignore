@@ -1,0 +1,9 @@
+/venv/
+.coverage
+/.pytest_cache/
+
+/python_exercises/.__pycache__/
+/python_exercises/.__init__.py
+
+/tests/.__pycache__/
+/test/.__init__.py
